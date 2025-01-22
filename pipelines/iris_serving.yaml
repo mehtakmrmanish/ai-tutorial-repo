@@ -1,7 +1,7 @@
 apiVersion: ai.sap.com/v1alpha1
 kind: ServingTemplate
 metadata:
-  name: iris-serving-pipeline # executable ID, must be unique across your SAP AI Core instance, for example use `server-pipeline-yourname-1234`
+  name: iris-serving-pipeline01025 # executable ID, must be unique across your SAP AI Core instance, for example use `server-pipeline-yourname-1234`
   annotations:
     scenarios.ai.sap.com/name: "Iris DataSet Classifier Scenario" # Scenario name should be the use case
     scenarios.ai.sap.com/description: "SAP AI Core tutorial to classify the popular iris dataset"
@@ -11,8 +11,8 @@ metadata:
 
     artifacts.ai.sap.com/irismodel.kind: "model" # Suggest the kind of artifact to input.
   labels:
-    scenarios.ai.sap.com/id: "iris-classifier-scenario"
-    ai.sap.com/version: "4.0"
+    scenarios.ai.sap.com/id: "iris-classifier-scenario01025"
+    ai.sap.com/version: "1.0"
 spec:
   inputs:
     artifacts:
